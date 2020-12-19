@@ -7,9 +7,9 @@
     url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
     url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf') format('svg'); /* Legacy iOS */
 }
-    @font-face { font-family: 'Museo Sans Cyrl -100'; src: local('MuseoSansCyrl-100'), url('https://ruslanverovenko.github.io/Fonts/MuseoSansCyrl100.otf') format('otf'); }      
-    @font-face { font-family: 'Museo Sans Cyrl -900';  src: local('MuseoSansCyrl-900'), url('https://ruslanverovenko.github.io/Fonts/MuseoSansCyrl300.otf') format('otf'); } 
-    @font-face { font-family: 'Museo Sans Cyrl -300';  src: local('MuseoSansCyrl-300'), url('https://ruslanverovenko.github.io/Fonts/MuseoSansCyrl900.otf') format('otf'); }
+@font-face { font-family: 'Museo Sans Cyrl -100'; src: local('MuseoSansCyrl-100'), url('https://ruslanverovenko.github.io/Fonts/MuseoSansCyrl100.otf') format('otf'); }      
+@font-face { font-family: 'Museo Sans Cyrl -900';  src: local('MuseoSansCyrl-900'), url('https://ruslanverovenko.github.io/Fonts/MuseoSansCyrl300.otf') format('otf'); } 
+@font-face { font-family: 'Museo Sans Cyrl -300';  src: local('MuseoSansCyrl-300'), url('https://ruslanverovenko.github.io/Fonts/MuseoSansCyrl900.otf') format('otf'); }
 html{
     scroll-behavior: smooth;
 }
