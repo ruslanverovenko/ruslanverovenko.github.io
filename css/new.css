@@ -7,34 +7,9 @@
     url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
     url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf') format('svg'); /* Legacy iOS */
 }
-@font-face {
-    font-family: 'font1913b09835e902f7123ad3ac38b4cd93';
-        
-        src:    url('https://nomail.com.ua/files/eot/1913b09835e902f7123ad3ac38b4cd93.eot?#iefix') format('embedded-opentype'),
-                url('https://nomail.com.ua/files/woff/1913b09835e902f7123ad3ac38b4cd93.woff') format('woff'),
-                url('https://nomail.com.ua/files/woff2/1913b09835e902f7123ad3ac38b4cd93.woff2') format('woff2');
-    }
-    
-    @font-face { font-family: 'Museo Sans Cyrl -100'; src: local('MuseoSansCyrl-100'), url('https://nomail.com.ua/files/woff/1913b09835e902f7123ad3ac38b4cd93.woff') format('woff'); }
-@font-face {
-    font-family: 'font73e5c73d4e80e6c080cd1bc5894cf3e8';
-            
-        src:    url('https://nomail.com.ua/files/eot/73e5c73d4e80e6c080cd1bc5894cf3e8.eot?#iefix') format('embedded-opentype'),
-                url('https://nomail.com.ua/files/woff/73e5c73d4e80e6c080cd1bc5894cf3e8.woff') format('woff'),
-                url('https://nomail.com.ua/files/woff2/73e5c73d4e80e6c080cd1bc5894cf3e8.woff2') format('woff2');
-    }
-        
-    @font-face { font-family: 'Museo Sans Cyrl -900';  src: local('MuseoSansCyrl-900'), url('https://nomail.com.ua/files/woff/73e5c73d4e80e6c080cd1bc5894cf3e8.woff') format('woff'); }
-        
-@font-face {
-    font-family: 'fontbcd826b1e90968390490c28037857940';
-            
-        src:url('https://nomail.com.ua/files/eot/bcd826b1e90968390490c28037857940.eot?#iefix') format('embedded-opentype'),
-            url('https://nomail.com.ua/files/woff/bcd826b1e90968390490c28037857940.woff') format('woff'),
-            url('https://nomail.com.ua/files/woff2/bcd826b1e90968390490c28037857940.woff2') format('woff2');
-    }
-        
-    @font-face { font-family: 'Museo Sans Cyrl -300';  src: local('MuseoSansCyrl-300'), url('https://nomail.com.ua/files/woff/bcd826b1e90968390490c28037857940.woff') format('woff'); }
+    @font-face { font-family: 'Museo Sans Cyrl -100'; src: local('MuseoSansCyrl-100'), url('https://ruslanverovenko.github.io/Fonts/MuseoSansCyrl100.otf') format('otf'); }      
+    @font-face { font-family: 'Museo Sans Cyrl -900';  src: local('MuseoSansCyrl-900'), url('https://ruslanverovenko.github.io/Fonts/MuseoSansCyrl300.otf') format('otf'); } 
+    @font-face { font-family: 'Museo Sans Cyrl -300';  src: local('MuseoSansCyrl-300'), url('https://ruslanverovenko.github.io/Fonts/MuseoSansCyrl900.otf') format('otf'); }
 html{
     scroll-behavior: smooth;
 }
