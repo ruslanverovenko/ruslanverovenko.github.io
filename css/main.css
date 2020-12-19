@@ -1,0 +1,1355 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Road Radio';
+    src: url('https://nomail.com.ua/files/eot/454de2342acecabe8f743fb57dc6745f.eot?#iefix') format('embedded-opentype'), url('https://nomail.com.ua/files/woff/454de2342acecabe8f743fb57dc6745f.woff') format('woff'), url('https://nomail.com.ua/files/woff2/454de2342acecabe8f743fb57dc6745f.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Road Radio';
+    src: local('RoadRadio'), url('https://nomail.com.ua/files/woff/454de2342acecabe8f743fb57dc6745f.woff') format('woff');
+}
+@font-face {
+    font-family: 'Road Radio - Black';
+    src: url('https://nomail.com.ua/files/eot/e25915e9a71069b514f99d05001b972e.eot?#iefix') format('embedded-opentype'), url('https://nomail.com.ua/files/woff/e25915e9a71069b514f99d05001b972e.woff') format('woff'), url('https://nomail.com.ua/files/woff2/e25915e9a71069b514f99d05001b972e.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Road Radio - Black';
+    src: local('RoadRadio-Black'), url('https://nomail.com.ua/files/woff/e25915e9a71069b514f99d05001b972e.woff') format('woff');
+}
+nav {
+    width: 1044px;
+    margin: 0 auto;
+    margin-top: 29px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+}
+.nav__item {
+    color: #14bee8;
+    font-family: "Road Radio";
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 9px;
+}
+.fa-phone-alt {
+    color: #14bde7;
+    margin-top: 20px;
+}
+.number {
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 9px;
+}
+.item-wrp {
+    display: flex;
+}
+.nav__btn {
+    display: inline;
+    width: 189px;
+    height: 46px;
+    line-height: 46px;
+    background-color: #44c8e5;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 17px;
+    text-align: center;
+}
+* {
+    transition: .25s;
+    box-sizing: border-box;
+}
+.nav__btn:hover {
+    background-color: rgba(68, 200, 229, 0.8);
+}
+.nav_wrapper {
+    margin-top: -9px;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background: url(../img/background.webp) no-repeat;
+    background-size: cover;
+    margin-top: 22px;
+    height: 594px;
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Road Radio - Black";
+    font-size: 54px;
+    text-transform: uppercase;
+    padding-top: 49px;
+}
+.heading-deskription {
+    font-family: "Road Radio";
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 4px;
+}
+.cosmetic {
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}
+.get-btn {
+    display: block;
+    width: 477px;
+    height: 70px;
+    background-color: #15bfeb;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 28px 49px 27px 55px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+.get-heading {
+    font-family: "Road Radio - Black";
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 8px;
+}
+.input-wrp {
+    text-align: center;
+    margin-top: 40px;
+}
+.input-1 {
+    border: 0;
+    border-bottom: 1px solid #a4a4a4;
+    width: 267px;
+    padding-bottom: 13px;
+    margin-left: 42px;
+}
+.input-1[type="text"]:focus {
+    outline: 0;
+    border-bottom: 1px solid #a4a4a4;
+}
+.input-18 {
+    margin-left: 0;
+}
+input::placeholder {
+    color: #010101;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.email::placeholder {
+    color: rgba(21, 191, 235, 0.9);
+}
+.email {
+    color: #15bfeb;
+}
+.leaf {
+    position: absolute;
+    left: 253px;
+    top: 53px;
+}
+.form {
+    position: relative;
+    width: 1031px;
+    margin: 0 auto;
+}
+.leaf-2 {
+    position: absolute;
+    right: 0;
+    bottom: 260px;
+}
+.leaf-3 {
+    position: absolute;
+    left: 45px;
+    bottom: 190px;
+}
+.leaf-4 {
+    position: absolute;
+    left: 0;
+    bottom: -240px;
+}
+.border {
+    border: 1px solid red;
+    border-radius: 50px;
+    transform: rotate(-11deg);
+    width: 1006px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: -270px;
+    z-index: -1;
+    margin-left: -502px;
+}
+.sale {
+    position: absolute;
+    width: 166px;
+    height: 166px;
+    border: 1px solid #ff4040;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 63px;
+    top: -156px;
+}
+.sale p {
+    color: #fff;
+    font-family: "Road Radio";
+    font-size: 18px;
+    border-radius: 50%;
+    border: 6px solid rgba(0, 0, 0, 0);
+    width: 155px;
+    height: 155px;
+    background: #ff4040;
+    text-align: center;
+    padding-top: 36px;
+}
+.sale span {
+    color: #fff;
+    font-family: "Road Radio - Black";
+    font-size: 52px;
+}
+.text-wrp {
+    margin-right: 9px;
+    z-index: 1;
+}
+.queation {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: right;
+}
+.queation-2 {
+    text-align: left;
+}
+.company-2 {
+    text-align: left;
+}
+.company {
+    font-family: "Roboto";
+    font-weight: 700;
+    text-align: right;
+}
+.text-wrp-2 {
+    margin-left: 7px;
+}
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 1070px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+.icons-2 {
+    justify-content: flex-start;
+}
+.clients__wrp {
+    display: flex;
+    justify-content: center;
+    background: #f9f9f9;
+    height: 193px;
+    margin-top: 20px;
+}
+.clients__wrp-2 {
+    margin: 0 auto;
+    margin-top: 54px;
+}
+.middle_img {
+    margin-right: 81px;
+    margin-left: 72px;
+    padding-top: 57px;
+}
+.end_img {
+    margin-right: 75px;
+    padding-top: 69px;
+}
+.start_img {
+    margin-left: 90px;
+    padding-top: 76px;
+}
+.clients-1 {
+    padding-top: 72px;
+}
+.clients-5 {
+    padding-top: 72px;
+}
+.section-img {
+    position: absolute;
+    z-index: -2;
+}
+.queation-2 {
+    text-align: left;
+}
+.company-2 {
+    text-align: left;
+}
+.first-section {
+    background: url(../img/br.webp) no-repeat;
+    background-size: cover;
+    height: 1461px;
+    z-index: 1000;
+    margin-top: 750px;
+    position: relative;
+}
+html .skills {
+    width: 1200px;
+    height: 1150px;
+    border: 17px solid #fff;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 0;
+    z-index: 2;
+    border-right: 0;
+    margin-top: 20px;
+}
+.brd {
+    width: 1222px;
+    height: 17px;
+    background: #fff;
+    position: absolute;
+    left: -28px;
+    bottom: 130px;
+    transform: rotate(-14deg);
+    z-index: 1;
+    border-radius: 20px;
+}
+.item-wrp__item {
+    margin-left: -15px;
+}
+.brd-2 {
+    width: 17px;
+    height: 850px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.advantages {
+    color: #ff4040;
+    font-family: "Road Radio - Black";
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 29px;
+}
+.hi {
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    text-decoration-line: line-through;
+    text-decoration-color: #ff4040;
+    text-decoration-style: wavy;
+    display: block;
+    margin: 0 auto;
+    margin-top: -10px;
+    font-size: 30px;
+}
+.description {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 17px;
+    margin-top: 15px;
+}
+.description-1 {
+    margin-top: 13px;
+}
+.description-2 {
+    margin-top: 51px;
+}
+.description-3 {
+    margin-top: 41px;
+}
+.description-4 {
+    margin-top: 41px;
+}
+.description-5 {
+    margin-top: 61px;
+}
+.description-6 {
+    margin-top: 13px;
+}
+.description-7 {
+    margin-top: 48px;
+}
+.description-8 {
+    margin-top: 39px;
+}
+.description-9 {
+    margin-top: 45px;
+}
+.description-10 {
+    margin-top: 54px;
+}
+ul {
+    list-style-type: none;
+}
+.special {
+    color: #15bfeb;
+}
+.advantages__item {
+    display: flex;
+    margin-top: 11px;
+    margin-left: 43px;
+    margin-top: 11px;
+    position: relative;
+}
+.advantages__item-1 {
+    margin-top: 57px;
+}
+.input-wrp-18 {
+    position: relative;
+    width: 550px;
+    padding-top: 35px;
+    padding-bottom: 70px;
+    transform: rotate(10deg);
+    background: #ffff;
+    border-radius: 50px;
+    box-shadow: 3px 4px 36px rgba(0, 0, 0, 0.07);
+}
+.round-img {
+    border: 1px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round-image {
+    border: 5px solid rgba(0, 0, 0, 0);
+}
+.advantages-wrp {
+    display: flex;
+    margin-top: -16px;
+}
+.numb {
+    color: #ff4040;
+    font-family: "Road Radio";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -3px;
+}
+.section-2 {
+    background: url(../img/Layer211.webp) no-repeat;
+    background-size: cover;
+    height: 1679px;
+    position: relative;
+    z-index: 2;
+    margin-top: -600px;
+}
+.cataloge {
+    color: #ff4040;
+    font-family: "Road Radio";
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-top: 420px;
+    text-align: center;
+}
+.cosmetics {
+    font-family: "Road Radio";
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    text-align: center;
+    margin-top: 18px;
+}
+.preparat__name {
+    color: #272727;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: .45px;
+    text-align: center;
+    margin-top: 37px;
+}
+.preparat-wrp {
+    width: 1055px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.preparat-wrp-1 {
+    margin-top: -20px;
+}
+.hello {
+    color: rgba(0, 0, 0, 0);
+    text-decoration-line: line-through;
+    text-decoration-color: #15bfeb;
+    text-decoration-style: wavy;
+    display: block;
+    margin: 0 auto;
+    font-size: 10px;
+    text-align: center;
+}
+.preparat__item {
+    width: 340px;
+    height: 325px;
+    background: #fff;
+}
+.preparat-wrp {
+    display: flex;
+    margin-top: 54px;
+}
+.preparat__item-middle {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.preparat-wrp-2 {
+    margin-top: 13px;
+}
+.get_preparat {
+    color: #fff;
+    font-family: Rubik;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 100px;
+    background-color: #3ad2f3;
+    display: flex;
+    padding: 27px 25px 14px 36px;
+    width: 530px;
+    margin: 0 auto;
+    margin-top: 62px;
+}
+.plus {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 26px;
+    margin-top: -5px;
+}
+.section-3 {
+    z-index: 1;
+    margin-top: -280px;
+    position: relative;
+    background: #f4f4f4;
+}
+.cosmetics-2 {
+    padding-top: 220px;
+}
+.background {
+    width: 2200px;
+    height: 1711px;
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    top: -220px;
+    display: none;
+}
+.product-name {
+    color: #010101;
+    font-family: "Road Radio - Black";
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+}
+.heading-product__description {
+    color: #5ad1eb;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.heading-product__description-2 {
+    color: #ff4040;
+}
+.product__description {
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 36px;
+}
+.product {
+    display: flex;
+    justify-content: center;
+    margin-top: -4px;
+}
+.product__item-2 {
+    text-align: center;
+    margin-left: 58px;
+    margin-top: 56px;
+}
+.product__item {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #e3e3e3;
+    padding-left: 180px;
+}
+.product__item-copy {
+    border-left: 0;
+    padding-left: 0;
+    border-right: 1px solid #e3e3e3;
+    padding-right: 20px;
+    margin-left: 200px;
+}
+.photo_before {
+    position: relative;
+    margin-left: -80px;
+    margin-top: 60px;
+}
+.photo_before-2 {
+    margin-top: 2px;
+}
+.bord {
+    width: 349px;
+    height: 244px;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -174.5px;
+    margin-top: -122px;
+}
+body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+.after-dsk {
+    position: absolute;
+    color: #fff;
+    font-family: "Road Radio";
+    font-size: 18px;
+    font-weight: 700;
+    background: #5ad1eb;
+    width: 86px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin-left: -43px;
+    bottom: 4px;
+}
+.after-dsk-2 {
+    background: #ffb1b5;
+}
+.before-dsk {
+    position: absolute;
+    color: #fff;
+    font-family: "Road Radio";
+    font-size: 18px;
+    font-weight: 700;
+    background: #000;
+    width: 56px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    margin-left: -28px;
+    bottom: 4px;
+}
+.wave {
+    color: rgba(0, 0, 0, 0);
+    text-decoration-line: line-through;
+    text-decoration-color: #000;
+    text-decoration-style: wavy;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 8px;
+    margin-bottom: 2px;
+}
+.line {
+    width: 1164px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: #e3e3e3;
+    margin-top: 70px;
+    position: relative;
+}
+.line-2 {
+    margin-top: 0;
+}
+.line-1::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #e3e3e3;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: -6px;
+}
+.product__item-4 {
+    position: relative;
+}
+.product__item-4::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #e3e3e3;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    bottom: 0;
+}
+.section-5 {
+    background: url(../img/Rectangle15.webp) no-repeat;
+    background-size: cover;
+    margin-top: -40px;
+}
+.icons-last {
+    margin-top: -230px;
+}
+.presedent {
+    width: 1163px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+.about-boss {
+    background: #fff;
+    width: 953px;
+    margin-top: 34px;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-boss-heading {
+    color: #32b3cf;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: .6px;
+    margin-bottom: 52px;
+    margin-top: 58px;
+}
+.section-7 {
+    margin-top: -10px;
+}
+.about-boss-wrp {
+    width: 609px;
+    font-family: "Roboto";
+    font-size: 20px;
+    padding-right: 20px;
+    margin-right: 24px;
+}
+.bolder {
+    font-weight: 700;
+}
+.boss-description-2 {
+    margin-top: 42px;
+}
+.boss-description-3 {
+    margin-top: 42px;
+}
+.read-more {
+    margin-top: 61px;
+    display: block;
+    padding-bottom: 65px;
+    color: #ff5a5a;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.presedent-picture {
+    margin-top: 110px;
+    position: absolute;
+    left: 47px;
+    top: -12px;
+}
+.section-6 {
+    background: url(../img/2-layers.webp) no-repeat;
+    background-size: cover;
+    height: 1000px;
+    margin-top: -240px;
+}
+.cataloge-3 {
+    padding-top: 340px;
+}
+.videos {
+    width: 1240px;
+    margin: 0 auto;
+    margin-top: 52px;
+}
+.iframe {
+    margin-left: 15px;
+}
+.icons-before {
+    margin-bottom: 0;
+    padding-top: 0;
+    margin-top: -85px;
+}
+.cataloge-4 {
+    padding-top: 100px;
+}
+.serteficate {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.serteficate__item {
+    margin-left: 10px;
+}
+.serteficate-description {
+    color: #010101;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: .6px;
+    margin-top: 44px;
+    text-align: center;
+}
+.more {
+    color: #fff;
+    font-family: Rubik;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 6px;
+    text-transform: uppercase;
+    width: 225px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3ad2f3;
+    margin: 0 auto;
+    margin-top: 43px;
+    border-radius: 100px;
+    position: relative;
+    z-index: 2;
+}
+.icons-4 {
+    padding-top: 70px;
+}
+.section-8 {
+    background: url(../img/back.webp) no-repeat;
+    background-size: cover;
+    height: 1000px;
+    margin-top: -300px;
+    position: relative;
+}
+.text-2 {
+    display: block;
+    margin: 0 auto;
+}
+.get-form {
+    font-family: "Road Radio - Black";
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+a:active, a:focus {
+    outline: 0;
+}
+input, textarea {
+    outline: 0;
+}
+input:active, textarea:active {
+    outline: 0;
+}
+:focus {
+    outline: 0;
+}
+textarea {
+    resize: none;
+}
+textarea {
+    resize: vertical;
+}
+textarea {
+    resize: horizontal;
+}
+.consultation {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    z-index: 2;
+}
+.form-2 {
+    position: absolute;
+    right: 400px;
+    top: 285px;
+}
+.text-middle {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.input-wrp-2 {
+    margin-top: 50px;
+    z-index: 100;
+    position: relative;
+}
+.go {
+    width: 339px;
+    height: 70px;
+    background-color: #15bfeb;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    color: #fff;
+    font-family: "Rubik";
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 6px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.go:hover {
+    cursor: pointer;
+}
+.input-wrp-1 {
+    position: relative;
+    width: 550px;
+    padding-top: 35px;
+    padding-bottom: 70px;
+    transform: rotate(10deg);
+    background: #ffff;
+    border-radius: 50px;
+    box-shadow: 3px 4px 36px rgba(0, 0, 0, 0.07);
+}
+.input-wrp-1::after {
+    content: "";
+    width: 550px;
+    height: 530px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    border-left: 1px solid #ff4040;
+    transform: rotate(-20deg);
+    border-right: 0;
+}
+.input-wrp-1-before {
+    width: 550px;
+    height: 530px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    border: 1px solid #ff4040;
+    transform: rotate(-10deg);
+    z-index: 0;
+    border-left: 0;
+}
+.radius {
+    transform: rotate(-10deg);
+}
+.text-wrp-last {
+    z-index: 5;
+}
+.chimik {
+    width: 550px;
+    height: 550px;
+    box-shadow: 0 26px 36px rgba(94, 101, 114, 0.28);
+    background-color: #ff5a5a;
+    border-radius: 50%;
+    position: absolute;
+    left: 385px;
+    bottom: -160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chimik-border {
+    width: 497px;
+    height: 497px;
+    border: 4px solid #fff;
+    border-radius: 50%}
+.chimik__text {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 388px;
+    margin: 0 auto;
+    text-align: center;
+}
+.chimik-img {
+    margin-left: 188px;
+    margin-top: 10px;
+}
+.chimik-imge {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.cataloge-5 {
+    padding-top: 96px;
+}
+.done {
+    font-size: 24px;
+}
+.section-9 {
+    margin-top: 140px;
+    position: relative;
+}
+.form-3-heading {
+    color: #ff5a5a;
+    font-family: "Road Radio - Black";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.center-txt {
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 37px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.style-input {
+    margin: 0 auto;
+    display: flex;
+    width: 220px;
+    height: 34px;
+    background-color: #d4d4d4;
+    border-radius: 100px;
+    border: 0;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: tomato;
+}
+.input-wrp-1-copy {
+    width: 450px;
+    height: 450px;
+}
+.input-wrp-1__after {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50px;
+    border-left: 1px solid #ff4040;
+    transform: rotate(-20deg);
+    border-right: 0;
+}
+.input-wrp-2-before {
+    width: 450px;
+    height: 450px;
+}
+.form-3 {
+    left: 400px;
+    top: 280px;
+    width: 80%}
+.big-line {
+    height: 630px;
+    width: 1px;
+    background-color: #dfdfdf;
+    margin-right: 5px;
+    margin-left: 14px;
+}
+.static {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.money {
+    position: absolute;
+    left: 60px;
+    top: 60%;
+    margin-top: -10px;
+}
+.relative {
+    position: relative;
+}
+.money-2 {
+    position: absolute;
+    right: 60px;
+    top: 200px;
+}
+.money-2, .money {
+    color: #fff;
+    font-family: "Road Radio - Black";
+    font-size: 18px;
+    font-weight: 400;
+}
+.money-3 {
+    width: 312px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+.relative {
+    margin-right: -370px;
+}
+.relative-2 {
+    position: relative;
+    margin-right: 370px;
+    margin-top: -140px;
+}
+* {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%}
+.form-8 {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -275px;
+    margin-top: -247px;
+    z-index: 1000000000009000;
+}
+.lover {
+    display: block;
+}
+.form-9 {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -275px;
+    margin-top: -247px;
+    z-index: 1000000000009000;
+}
+iframe {
+    border: 0;
+}
+.bosss {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.balck-back {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+.money-4 {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-left: -74px;
+    margin-top: -33px;
+    color: #fff;
+    font-family: "Road Radio - Black";
+    font-size: 68px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.money-5 {
+    left: 50%;
+    top: 65%;
+    position: absolute;
+    margin-left: -109px;
+    margin-top: -33px;
+    font-size: 30px;
+}
+.last-background {
+    width: 1000px;
+    background: url(../img/cs.webp) no-repeat;
+    background-size: cover;
+}
+.last-background__item {
+    width: 52%}
+.cataloge-6 {
+    padding-top: 94px;
+    font-size: 50px;
+}
+.last-background__item-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+.underline {
+    text-align: center;
+    color: #d1d1d1;
+    text-decoration-line: line-through;
+    text-decoration-color: #d1d1d1;
+    text-decoration-style: wavy;
+    display: block;
+    margin: 0 auto;
+    font-size: 10px;
+    margin-top: 21px;
+    margin-bottom: 34px;
+}
+.underline-1 {
+    text-decoration-color: #62cfe9;
+}
+.fas {
+    color: #14bde7;
+}
+.footer-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-ul {
+    text-align: center;
+}
+.cataloge-2 {
+    padding-top: 83px;
+}
+.footer-item-p {
+    color: #000;
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.fa-phone-alt {
+    margin-top: 0;
+}
+.footer-item-1 {
+    margin-top: 71px;
+}
+.footer-p {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+}
+.boss-name {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    color: #fff;
+    z-index: 6;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 60px;
+}
+.description-boss {
+    font-family: "Roboto";
+    font-weight: 400;
+    letter-spacing: 1.35px;
+    color: #fff;
+    z-index: 6;
+    position: relative;
+    margin-left: 60px;
+}
+.last-section {
+    display: flex;
+}
+.iframe-google-map-24 {
+    width: 48%;
+    display: block;
+}
+.last-section {
+    margin-top: 133px;
+}
+.rules {
+    opacity: .42;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+}
+.rek {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer__item {
+    display: flex;
+    justify-content: center;
+    max-width: 1060px;
+    padding-top: 33px;
+}
+.adaptive-line-back {
+    background-color: rgba(20, 188, 229, 0.3);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+.adaptive-line-2 {
+    text-align: center;
+    margin: 0 auto;
+}
+.adaptive-line {
+    width: 54px;
+    height: 3px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.adaptive-line-wrp {
+    width: 54px;
+    margin: 0 auto;
+    margin-top: 61px;
+    cursor: pointer;
+}
+.adaptive-nav__item-wrp {
+    padding-top: 54px;
+}
+.underline-1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    text-decoration-line: line-through;
+    text-decoration-color: #15bfeb;
+    text-decoration-style: wavy;
+    display: block;
+    margin: 0 auto;
+    font-size: 10px;
+}
+.adaptive-nav-ul {
+    padding-left: 35px;
+    padding-right: 35px;
+    background: rgba(255, 255, 255, 0.89);
+    padding-bottom: 78px;
+    display: none;
+}
+.butt {
+    width: 167px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #15bfeb;
+}
+button:hover, a:hover {
+    background-color: rgba(68, 200, 229, 0.8);
+}
+.read-more:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+.adaptive-nav__i {
+    margin-top: 10px;
+}
+.adaptive-nav__i-2 {
+    display: flex;
+    justify-content: center;
+}
+.adaptive-line-2 {
+    display: none;
+}

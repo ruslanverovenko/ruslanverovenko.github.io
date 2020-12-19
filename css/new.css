@@ -1,0 +1,467 @@
+@font-face {
+	font-family: 'Natasha';
+	src: url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf'); /* IE9 Compat Modes */
+	src: url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf') format('embedded-opentype'), /* IE6-IE8 */
+    url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf') format('woff2'), /* Super Modern Browsers */
+    url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf') format('woff'), /* Pretty Modern Browsers */
+    url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('https://ruslanverovenko.github.io/Fonts/Natasha.ttf') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'font1913b09835e902f7123ad3ac38b4cd93';
+        
+        src:    url('https://nomail.com.ua/files/eot/1913b09835e902f7123ad3ac38b4cd93.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/1913b09835e902f7123ad3ac38b4cd93.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/1913b09835e902f7123ad3ac38b4cd93.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'Museo Sans Cyrl -100'; src: local('MuseoSansCyrl-100'), url('https://nomail.com.ua/files/woff/1913b09835e902f7123ad3ac38b4cd93.woff') format('woff'); }
+@font-face {
+    font-family: 'font73e5c73d4e80e6c080cd1bc5894cf3e8';
+            
+        src:    url('https://nomail.com.ua/files/eot/73e5c73d4e80e6c080cd1bc5894cf3e8.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/73e5c73d4e80e6c080cd1bc5894cf3e8.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/73e5c73d4e80e6c080cd1bc5894cf3e8.woff2') format('woff2');
+    }
+        
+    @font-face { font-family: 'Museo Sans Cyrl -900';  src: local('MuseoSansCyrl-900'), url('https://nomail.com.ua/files/woff/73e5c73d4e80e6c080cd1bc5894cf3e8.woff') format('woff'); }
+        
+@font-face {
+    font-family: 'fontbcd826b1e90968390490c28037857940';
+            
+        src:url('https://nomail.com.ua/files/eot/bcd826b1e90968390490c28037857940.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/bcd826b1e90968390490c28037857940.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/bcd826b1e90968390490c28037857940.woff2') format('woff2');
+    }
+        
+    @font-face { font-family: 'Museo Sans Cyrl -300';  src: local('MuseoSansCyrl-300'), url('https://nomail.com.ua/files/woff/bcd826b1e90968390490c28037857940.woff') format('woff'); }
+html{
+    scroll-behavior: smooth;
+}
+h1, h2, h3{
+    font-family: 'Natasha';
+}
+.follow-button:hover {
+    -webkit-animation: fly 0.2s steps(4) 10;
+    -moz-animation: fly 0.2s steps(4) 10;
+    animation: fly 0.2s steps(4) 10;
+}
+
+header{
+    color: #ffffff;
+    background: url(../img/nntrnr.png)  no-repeat ;
+    font-family: 'Museo Sans Cyrl -900', sans-serif;    
+    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+}
+li{
+    list-style-type: none ;
+}
+nav{
+    padding-top: 56px;
+}
+*{
+    -moz-animation: rotate 0.8s linear;
+    -webkit-animation: rotate 0.8s linear;
+    -icab-animation: rotate 0.8s linear;
+    -khtml-animation: rotate 0.8s linear;
+}
+.nav__ul{
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    display: flex;
+    justify-content: center;
+}
+.nav__ul li:first-child{
+    font-size: 17px;
+    margin-right: 177px;
+}
+.nav__ul span{
+    font-family: 'Museo Sans Cyrl -100';
+    letter-spacing: 2.04px;
+    color: #ffffff;
+}
+.nav__link{
+    font-family: 'Museo Sans Cyrl -300';
+    font-size: 13px;
+    margin-left: 161px;
+}
+.nav__ul li:nth-child(3) , .nav__ul li:nth-child(4){
+    margin-left: 47px;
+}
+.header-title{
+    text-align: center;
+    margin-top: 290px;
+    text-transform: uppercase;
+}
+.header-title h2{
+    font-size: 29px;
+    font-family: 'Museo Sans Cyrl -100';
+    letter-spacing: 3.48px;
+    margin-top: 15px;
+    font-weight: 100;
+    color:#eaebea;
+}
+.header-title h1{
+    font-family: 'Natasha';
+    letter-spacing: 5.88px;
+    font-size: 49px;
+}
+a{
+    text-decoration: none;
+    color: #fefefe;
+}
+.arrow-wrapper{
+    margin-top: 200px;
+}
+.span-href{
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.arrow-wrapper span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0px auto;
+    border-bottom: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    transform: rotate(45deg);
+    margin-top: -10px;
+    margin-bottom: -10px;
+    animation: animate 2s infinite;
+}
+.arrow-wrapper span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-wrapper span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px, 20px);
+    }
+}
+.about-me__title{
+    color: #22241b;
+    font-size: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.44px;
+    margin-top: 86px;
+}
+.about-me h3{
+    opacity: 0.66;
+    color: #22241b;
+    font-family: Natasha;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.64px;
+}
+.text{
+    width: 432px;
+    font-family: "Museo Sans Cyrl -300";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.3px;
+    margin-top: 40px;
+    color: #22241b;
+}
+.numbers{
+    color: #204d15;
+    font-family: 'Museo Sans Cyrl -100';
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    width: 103px;
+    height: 103px;
+    background: url(../img/2-layers.png) no-repeat;
+    text-align: center;
+    line-height: 103px;
+}
+.skills__item{
+    display: flex;
+    margin-top: 62px;
+}
+.num{
+    color: #22241b;
+    font-family: 'Museo Sans Cyrl -100';
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.24px;
+    text-align: center;
+    margin-top: 25px;
+}
+.Merits__ul{
+    display: flex;
+    width: 413px;
+
+}
+.Merits__ul li:nth-child(2){
+    margin-left: 51px;
+    margin-right: 52px;
+}
+.phone{
+    margin-top: 68px;
+}
+.phone a, span{
+    font-family: "Museo Sans Cyrl -300";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.68px;
+    color: #204d15;
+    border-bottom: 1px solid #204d15;
+}
+.span-wrapper{
+    background: url(../img/mg.png) no-repeat;
+    height: 64px;
+    margin-top: 44px;
+    margin-left: 49px;
+}
+.span-wrapper span{
+    padding-left:93px;
+    line-height: 64px;
+    border: 0px;
+}
+.phone__ul li:nth-child(2){
+    margin-top: 21px;
+    margin-bottom: 23px;
+}
+.phone__ul li:nth-child(1){
+    margin-top: 38px;
+}
+.none{
+    padding: 10px;
+    border: 0px solid #fff;
+    border-radius: 25px;
+}
+.none:hover{
+    background: #fff;
+    border: 1px;
+    transition: all 0.5s;
+}
+.none:hover a{
+    color: #000;
+}
+.about-me{
+    display: flex;
+    margin-top: 76px;
+}
+.phone span{
+    border-bottom: 0px ;
+}
+.ul-wrapper{
+    display: flex;
+}
+.mertis__wrapper{
+    margin-top: 58px;
+}
+.container-2{
+    margin-left: 48px;
+}
+.skills__title{
+    color: #22241b;
+    font-size: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.44px;
+    margin-top: 97px;
+}
+
+.skill__span{
+    opacity: 0.89;
+    color: #22241b;
+    font-family: "Museo Sans Cyrl -900";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    line-height: 61px;
+    margin-left: 27px;
+}
+.numb__span{
+    color: #204d15;
+    font-family: 'Museo Sans Cyrl -100';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: uppercase;
+    letter-spacing: 1.56px;
+    border: 1px solid #adb2ac;
+    border-radius: 50%;
+    width: 51px;
+    height: 51px;
+}
+.numb{
+    display: flex;
+    margin-left: 41px;
+}
+.numb:first-child{
+    margin-left: 0px;
+}
+.border{
+    border-radius: 50%;
+    border: 1px solid #204d15;
+    min-width: 61px;
+    min-height: 61px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.jobs__title{
+    color: #22241b;
+    font-size: 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.44px;
+    margin-top: 83px;
+}
+.examples{
+    margin-top: 59px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.midddle-wrapp{
+    margin-left: 20px;
+}
+.years{
+    opacity: 0.66;
+    color: #22241b;
+    font-family: "Museo Sans Cyrl -300";
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.54px;
+    margin-top: 123px;
+}
+.img__wrapper{
+    position: relative;
+    cursor: pointer;
+    z-index: 8;
+    width: 100%;
+}
+.hgost{
+    display: flex;
+}
+.psevdo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.img-p{
+    color: #ffffff;
+    font-family: "Museo Sans Cyrl -900";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    transition: all 0.55s;
+
+}
+.psevdo:hover .link-img{
+    opacity: 1;
+    left: 50%;
+    top: 45%;
+    margin-left: -30.955px;
+}
+.psevdo:hover .img-p {
+    opacity: 1;
+    left: 50%;
+    top: 35%;
+    margin-left: -32.4975px;
+}
+.psevdo:hover .ait{
+    margin-left: -15px;
+}
+.psevdo:hover .Lhander{
+    margin-left: -36.29px;
+}
+.psevdo:hover .kholomyanskiy{
+    margin-left: -56px;
+}
+.no{
+    border: 0;
+}
+.link-img{
+    color: #ffffff;
+    font-family: "Museo Sans Cyrl -300";
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.26px;
+    position: absolute;
+    opacity: 0;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    transition: all 0.55s;
+    border-bottom: 1px solid #ffffff; 
+    
+}
+.dsp{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    opacity: 0;
+    transition: all 0.25s;
+    max-width: 450px;
+    max-height: 229px;
+}
+.psevdo:hover .dsp{
+    opacity: 1;
+}
+.wrapper{
+    width: 1000px;
+    margin:0 auto;
+}
+.ghost{
+    display: flex;
+    margin-right: 41px;
+}
+.ghost-2{
+    margin-left: 41px;
+}
+.Merits__ul-ghost{
+    display: flex;
+}
+li:first-child {
+    margin-right: 10%; 
+}
+.Merits__ul li:nth-child(2){
+    margin-left: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+.img__wrapper img{
+    max-width: 450px;
+    max-height: 229px;
+}

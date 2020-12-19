@@ -1,0 +1,194 @@
+@media screen and (max-width: 1124px) {
+    .jobs__title{
+        text-align: center;
+    }
+    .Merits__ul li:nth-child(2){
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .wrapper{
+        width: 90%;
+    }
+    .none{
+        display: none;
+    } 
+    li:first-child {
+      margin-right: 10%; 
+    }
+    .nav__link{
+        margin-left: 30%;
+    }
+    .nav__ul li:nth-child(5){
+        margin-left: 10%;
+    }
+    .dsp{
+        width: 350px;
+        height: 178px;
+    }
+    .span-wrapper{
+        margin-top: 3%;
+    }
+    .img{
+        width: 350px;
+        height: 178px;
+    }
+    .img__wrapper{
+        width: 350px;
+        height: 178px;
+    }
+    .psevdo{
+        width: 100%;
+    }
+    .middle-wrapp{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .about-me{
+        display: block;
+        margin-left: 11%;
+    }
+    .container-2{
+        margin-left: 0px;
+        margin-top: 55px; 
+    }
+    .about-me__title{
+        text-align: center;
+    }
+    .phone__ul li:nth-child(1) {
+        margin-top: 0px;
+    }
+    .header-title{
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60%;
+    }
+    .skills__title{
+        text-align: center;
+    }
+    .ghost{
+        display: block;
+    }
+    .ghost-2{
+        margin-left: 20%;
+    }
+    .numb-2{
+        padding-top:40px;
+    }
+    .numb{
+        margin-left: 0px;
+
+    }
+    .numb-4{
+        padding-top:40px;
+    }
+    .skills__item{
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .examples{
+        display: block;
+    }
+    .hgost{
+        display: flex;
+        justify-content: center;
+    }
+    .img__wrapper:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .img__wrapper:nth-child(2){
+        margin-bottom: 10px;
+    }
+        
+}
+@media screen and (max-width: 750px){
+    .hgost{
+        flex-direction: column;
+    }
+    .img__wrapper{
+        margin: 2% auto;
+        width: 340px;
+        height: 172px;
+    }
+}
+@media screen and (max-width: 647px) {
+    .span-wrapper{
+        display: none;
+    }
+}
+@media screen and (max-width: 540px){
+    .nav__ul{
+        width: 138px;
+        margin: 0 auto;
+    }
+    .arrow-wrapper{
+        margin-top: 25%;
+    }
+    .nav__link{
+        display: none;
+    }
+    .nav__ul li:first-child{
+        margin-right: 0;
+    }
+    .text:last-child{
+        display: none;
+    }
+    .text{
+        width: 96%;
+    }
+    .Merits__ul{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+    .Merits__ul-ghost li:nth-child(1) , .Merits__ul-ghost li:nth-child(2){
+        margin: 0 auto;
+    }
+    .numbers-last {
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .skills__item{
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    .ghost-1{
+        
+        margin-bottom: 40px;
+    }
+    .ghost-2{
+        margin-left: 0;
+    }
+    .img{
+        width: 340px;
+        height: 172px;
+    }
+    .dsp{
+        width: 340px;
+        height: 172px;
+    }
+    .img__wrapper img{
+        max-width: 300px;
+        max-height: 152px;
+        margin: 0 auto;
+        display: block;
+    }
+    .dsp{
+        max-width: 300px;
+        max-height: 152px;
+        left: 50%;
+        margin-left: -150px;
+        display: block;
+    }
+    
+}
+@media screen and (max-width: 325px){
+    .arrow-wrapper{
+      display: none;
+    }
+}
+@media screen and (max-width: 377px){
+    .header-title{
+        margin-top: 45%;
+    }
+}
